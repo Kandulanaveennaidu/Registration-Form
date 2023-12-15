@@ -1,0 +1,15 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Additional styling if needed */

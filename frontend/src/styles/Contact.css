@@ -1,0 +1,87 @@
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact-list li {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list li a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 10px;
+}
+
+.contact-list li a:hover {
+  color: #2980b9;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #2980b9;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

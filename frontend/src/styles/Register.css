@@ -1,0 +1,58 @@
+/* Register.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#00d5ff, #0095ff, rgba(93, 0, 255, 0.555));
+}
+
+.register-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+}
+
+.register-content h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.register-content label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.register-content input[type="text"],
+.register-content input[type="email"],
+.register-content input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-content button:hover {
+  background-color: #0056b3;
+}
+
+.register-content p {
+  margin-top: 10px;
+}
+
+.register-content .btn-secondary {
+  margin-top: 10px;
+}
